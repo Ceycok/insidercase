@@ -1,7 +1,7 @@
 <script setup>
 import { computed } from "vue";
 import { useStore } from "vuex";
-import Laps from "../samples/laps.json";
+import Laps from "../samples/Laps.json";
 
 const store = useStore();
 const programList = computed(() => store.state.programList);

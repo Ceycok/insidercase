@@ -3,7 +3,7 @@ import { gsap } from "gsap";
 import { computed, onMounted, ref } from "vue";
 import Horse from "./Horse.vue";
 import { useStore } from "vuex";
-import Laps from "../samples/laps.json";
+import Laps from "../samples/Laps.json";
 
 const store = useStore();
 

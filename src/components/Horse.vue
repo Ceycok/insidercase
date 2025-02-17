@@ -2,7 +2,7 @@
 import gsap from "gsap";
 import { defineProps, onMounted, ref, watch } from "vue";
 import { useStore } from "vuex";
-import Laps from "../samples/laps.json";
+import Laps from "../samples/Laps.json";
 
 const props = defineProps({
   horse: {
